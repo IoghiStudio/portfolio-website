@@ -1,3 +1,25 @@
 .header {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px;
+  background-color: rgb(77, 71, 63);
+}
+
+.icon {
+  width: 28px;
+  z-index: 99;
   
+  &__menu {
+    height: 24px;
+
+    background-image: url('../../images/menu.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: background-image 500ms;
+
+    &--cross {
+      background-image: url(../../images/menu-cross.svg);
+    }
+  }
 }

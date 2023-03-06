@@ -1,15 +1,22 @@
 import React from 'react';
+import { Nav } from '../Nav';
+import cn from 'classnames';
 
-export const Menu = () => {
+import './Menu.scss';
+
+type Props = {
+  isOpen: boolean;
+}
+
+export const Menu: React.FC<Props> = ({ isOpen }) => {
   return (
-    <div className="menu">
-      Menu 
-      1
-      2
-      3
-      4
-      5
-      
+    <div className={cn(
+      "menu",
+      {
+        "menu--open": isOpen,
+      }
+    )}>
+      <Nav />
     </div>
   );
 }
