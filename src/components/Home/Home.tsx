@@ -1,9 +1,9 @@
 import React from 'react';
 
-export const Contact = () => {
+export const Home = () => {
   return (
     <div className="App">
-      Contact page
+      Home page
     </div>
   );
 }

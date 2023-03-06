@@ -1,9 +1,9 @@
 import React from 'react';
 
-export const Contact = () => {
+export const Menu = () => {
   return (
     <div className="App">
-      Contact page
+      hi
     </div>
   );
 }
