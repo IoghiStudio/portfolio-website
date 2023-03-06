@@ -2,7 +2,7 @@ import React from 'react';
 
 export const Portofolio = () => {
   return (
-    <div className="App">
+    <div className="portofolio">
       <h2>Portofolio projects:</h2>
       1,
       2,

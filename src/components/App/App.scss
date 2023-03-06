@@ -3,8 +3,11 @@ body {
 }
 
 .App {
+  box-sizing: border-box;
   width: 100vw;
   height: 100vh;
+  padding: 90px 30px;
+
   background-color: #1d1d1d;
   color: #fff;
 }
