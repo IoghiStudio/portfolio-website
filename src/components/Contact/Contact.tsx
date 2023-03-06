@@ -1,11 +1,9 @@
 import React from 'react';
 
-function App() {
+export const Contact = () => {
   return (
     <div className="App">
       hi
     </div>
   );
 }
-
-export default App;
