@@ -2,11 +2,16 @@ import React, { useState } from 'react';
 import {
   Routes,
   Route,
+  Navigate
 } from 'react-router-dom'
 import { About } from '../About';
+import { Blog } from '../Blog';
 import { Contact } from '../Contact';
 import { Header } from '../Header';
 import { Home } from '../Home';
+import { Portofolio } from '../Portofolio';
+
+import './App.scss';
 
 export const App = () => {
   return (
@@ -21,8 +26,25 @@ export const App = () => {
         />
 
         <Route
+          path="/home"
+          element={
+            <Navigate to="/" replace/>
+          }
+        />
+
+        <Route
           path="/about"
           element={<About />}
+        />
+
+        <Route
+          path="/portofolio"
+          element={<Portofolio />}
+        />
+
+        <Route
+          path="/blog"
+          element={<Blog />}
         />
 
         <Route

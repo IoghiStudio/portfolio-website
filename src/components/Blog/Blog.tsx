@@ -1,9 +1,9 @@
 import React from 'react';
 
-export const About = () => {
+export const Blog = () => {
   return (
     <div className="App">
-      <h2>About page</h2>
+      <h2>My blogs</h2>
     </div>
   );
 }
