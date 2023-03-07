@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import {
   Routes,
   Route,
@@ -17,7 +17,13 @@ import './App.scss';
 
 export const App = () => {
   const [shouldShowMenu, setShouldShowMenu] = useState<boolean>(false);
-  const [showAnimation, setShowAnimation] = useState<boolean>(false); 
+  const [showAnimation, setShowAnimation] = useState<boolean>(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setShowAnimation(false);
+    }, 2000);
+  }, [])
 
   const handleMenuOpener = () => {
     setShouldShowMenu(prevState => !prevState)
@@ -55,7 +61,7 @@ export const App = () => {
       <Routes>
         <Route
           path="/"
-          element={<Home/>}
+          element={<Home onLoad={loadingAnimation}/>}
         />
 
         <Route
@@ -82,7 +88,7 @@ export const App = () => {
 
         <Route
           path="/contact"
-          element={<Contact/>}
+          element={<Contact />}
         />
       </Routes>
     </div>

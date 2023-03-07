@@ -4,7 +4,11 @@ import './LoadAnimation.scss';
 export const LoadAnimation = () => {
   return (
     <div className="loadAnimation">
-      <h1>ANIMATION</h1>
+      <div className="loader">
+        <div className="inner one"></div>
+        <div className="inner two"></div>
+        <div className="inner three"></div>
+      </div>
     </div>
   );
 }
