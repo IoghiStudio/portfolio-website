@@ -1,15 +1,37 @@
 .nav {
+  margin: 0 auto;
 
   &__list {
-    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0 0;
     margin: 0;
     list-style: none;
   }
 
-  &__item {}
+  &__item {
+    margin-bottom: 24px;
+    width: max-content;
+  }
 
   &__link {
+    display: block;
+    padding-bottom: 8px;
+    width: max-content;
+    
+    font-size: 24px;
+    line-height: 24px;
     text-decoration: none;
-    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-bottom: 2px solid transparent;
+
+    &:hover {
+      border-color: #ca2e2e;
+    }
+
+    color: gold;
   }
 }

@@ -9,6 +9,7 @@ import { Blog } from '../Blog';
 import { Contact } from '../Contact';
 import { Header } from '../Header';
 import { Home } from '../Home';
+import { LoadAnimation } from '../LoadAnimation/LoadAnimation';
 import { Menu } from '../Menu';
 import { Portofolio } from '../Portofolio';
 
@@ -16,10 +17,26 @@ import './App.scss';
 
 export const App = () => {
   const [shouldShowMenu, setShouldShowMenu] = useState<boolean>(false);
+  const [showAnimation, setShowAnimation] = useState<boolean>(false); 
 
   const handleMenuOpener = () => {
     setShouldShowMenu(prevState => !prevState)
   }
+
+  const loadingAnimation = (ms: number) => {
+    setShowAnimation(true);
+
+    setTimeout(() => {
+      setShowAnimation(false);
+    }, ms)
+  }
+
+  const closeMenu = () => {
+    setShouldShowMenu(false);
+
+    loadingAnimation(1000);
+  }
+
 
   return (
     <div className="App">
@@ -30,12 +47,15 @@ export const App = () => {
 
       <Menu
         isOpen={shouldShowMenu}
+        closeMenu={closeMenu}
       />
+
+      {showAnimation && <LoadAnimation />}
 
       <Routes>
         <Route
           path="/"
-          element={<Home />}
+          element={<Home/>}
         />
 
         <Route
@@ -47,22 +67,22 @@ export const App = () => {
 
         <Route
           path="/about"
-          element={<About />}
+          element={<About/>}
         />
 
         <Route
           path="/portofolio"
-          element={<Portofolio />}
+          element={<Portofolio/>}
         />
 
         <Route
           path="/blog"
-          element={<Blog />}
+          element={<Blog/>}
         />
 
         <Route
           path="/contact"
-          element={<Contact />}
+          element={<Contact/>}
         />
       </Routes>
     </div>
