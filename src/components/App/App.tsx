@@ -54,10 +54,12 @@ export const App = () => {
       </div>
 
       <div className="app__page">
-        <Header
-          handleMenuOpener={handleMenuOpener}
-          isOpen={shouldShowMenu}
-        />
+        <div className="app__header">
+          <Header
+            handleMenuOpener={handleMenuOpener}
+            isOpen={shouldShowMenu}
+          />
+        </div>
 
         <Menu
           isOpen={shouldShowMenu}
