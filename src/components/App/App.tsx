@@ -9,9 +9,10 @@ import { Blog } from '../Blog';
 import { Contact } from '../Contact';
 import { Header } from '../Header';
 import { Home } from '../Home';
-import { LoadAnimation } from '../LoadAnimation/LoadAnimation';
+import { LoadAnimation } from '../LoadAnimation';
 import { Menu } from '../Menu';
 import { Portofolio } from '../Portofolio';
+import { SideBar } from '../SideBar';
 
 import './App.scss';
 
@@ -22,7 +23,7 @@ export const App = () => {
   useEffect(() => {
     setTimeout(() => {
       setShowAnimation(false);
-    }, 2000);
+    }, 1000);
   }, [])
 
   const handleMenuOpener = () => {
@@ -45,52 +46,66 @@ export const App = () => {
 
 
   return (
-    <div className="App">
-      <Header
-        handleMenuOpener={handleMenuOpener}
-        isOpen={shouldShowMenu}
-      />
-
-      <Menu
-        isOpen={shouldShowMenu}
-        closeMenu={closeMenu}
-      />
-
+    <div className="app">
       {showAnimation && <LoadAnimation />}
 
-      <Routes>
-        <Route
-          path="/"
-          element={<Home onLoad={loadingAnimation}/>}
+      <div className="app__sidebar app__sidebar--desktop">
+        <SideBar />
+      </div>
+
+      <div className="app__page">
+        <Header
+          handleMenuOpener={handleMenuOpener}
+          isOpen={shouldShowMenu}
         />
 
-        <Route
-          path="/home"
-          element={
-            <Navigate to="/" replace/>
-          }
+        <Menu
+          isOpen={shouldShowMenu}
+          closeMenu={closeMenu}
         />
 
-        <Route
-          path="/about"
-          element={<About/>}
-        />
 
-        <Route
-          path="/portofolio"
-          element={<Portofolio/>}
-        />
+        <Routes>
+          <Route
+            path="/"
+            element={<Home onLoad={loadingAnimation}/>}
+          />
 
-        <Route
-          path="/blog"
-          element={<Blog/>}
-        />
+          <Route
+            path="/home"
+            element={
+              <Navigate to="/" replace/>
+            }
+          />
 
-        <Route
-          path="/contact"
-          element={<Contact />}
-        />
-      </Routes>
+          <Route
+            path="/about"
+            element={<About/>}
+          />
+
+          <Route
+            path="/portofolio"
+            element={<Portofolio/>}
+          />
+
+          <Route
+            path="/blog"
+            element={<Blog/>}
+          />
+
+          <Route
+            path="/contact"
+            element={<Contact />}
+          />
+
+          <Route
+            path="*"
+            element={
+              <p>ERROR 404 - PAGE NOT FOUND</p>
+            }
+          />
+        </Routes>
+      </div>
     </div>
   );
 }

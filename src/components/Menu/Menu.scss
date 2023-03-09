@@ -19,8 +19,8 @@
 
   transform: translateX(100%);
   transition: transform 500ms;
-}
 
-.menu--open {
-  transform: translateX(0);
+  &--open {
+    transform: translateX(0);
+  }  
 }
