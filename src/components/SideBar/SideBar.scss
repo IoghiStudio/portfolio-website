@@ -1,12 +1,36 @@
 .sidebar {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
 
+  box-sizing: border-box;
   width: 130px;
   height: 100vh;
+  padding: 40px 0;
 
   background-color: #111111;
   color: #fff;
+
+  &__logo {
+
+    &--container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+
+    &--text {
+      font-size: 36px;
+      margin: 0;
+    }
+
+    width: 130px;
+    height: 90px;
+    background-image: url(../../images/N-LOGO.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }

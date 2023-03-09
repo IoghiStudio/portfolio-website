@@ -9,14 +9,10 @@ type Props = {
 export const SideBar: React.FC<Props> = ({ closeMenu }) => {
   return (
     <div className="sidebar">
-      {/* <div>Sidebar</div>
-
-      <div>Info</div>
-
-      <div>Just for test</div>
-
-
-      <div>Just for test</div> */}
+      <div className="sidebar__logo--container">
+        <div className="sidebar__logo"></div>
+        <p className="sidebar__logo--text">Nicu</p>
+      </div>
 
       <Nav closeMenu={closeMenu}/>
     </div>
