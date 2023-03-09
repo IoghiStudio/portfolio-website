@@ -1,4 +1,5 @@
 import React from 'react';
+import { Media } from '../Media';
 import { Nav } from '../Nav';
 import './SideBar.scss';
 
@@ -15,6 +16,8 @@ export const SideBar: React.FC<Props> = ({ closeMenu }) => {
       </div>
 
       <Nav closeMenu={closeMenu}/>
+
+      <Media />
     </div>
   );
 };

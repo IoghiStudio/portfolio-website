@@ -1,0 +1,32 @@
+.media {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  // background-color: rgb(17, 14, 14);
+  height: 200px;
+  width: 100px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  &__icon {
+    display: block;
+    width: 30px;
+    height: 30px;
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    &--github {
+      background-image: url(../../images/github-mark-white.svg);
+    }
+
+    &--linkedin {
+      width: 36px;
+      height: 36px;
+      background-image: url(../../images/linkedin-logo-circle.svg);
+    }
+  }
+}
