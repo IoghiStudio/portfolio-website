@@ -49,8 +49,8 @@ export const App = () => {
     <div className="app">
       {showAnimation && <LoadAnimation />}
 
-      <div className="app__sidebar app__sidebar--desktop">
-        <SideBar />
+      <div className="app__sidebar">
+        <SideBar closeMenu={closeMenu} />
       </div>
 
       <div className="app__page">
