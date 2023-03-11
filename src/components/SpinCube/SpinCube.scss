@@ -3,7 +3,7 @@
   height: 200px;
   position: relative;
   transform-style: preserve-3d;
-  animation: rotate 15s linear infinite;
+  animation: rotate 14s linear infinite;
 }
 
 .image {
@@ -22,6 +22,7 @@
 
   &__js {
     background-image: url('../../images/cubeLogos/jsLogo.svg');
+    transform: rotate(-90deg) translate(-50px, 50px);
   }
 
   &__ts {
@@ -34,6 +35,7 @@
 
   &__git {
     background-image: url('../../images/cubeLogos/gitLogo.svg');
+    transform: rotate(-90deg) translate(-50px, 50px);
   }
 }
 
