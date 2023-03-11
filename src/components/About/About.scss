@@ -1,9 +1,14 @@
 .about {
   display: flex;
-  flex-grow: 1;
+  // flex-grow: 1;
+
+  height: 100vh;
+  padding: 50px;
 
   &__page {
-    width: 50%;
+    box-sizing: border-box;
+    width: 60%;
+    padding: 100px 50px 50px;
   }
 
   &__animation {}
