@@ -1,4 +1,5 @@
 import React from 'react';
+import { SpinCube } from '../SpinCube';
 import './About.scss';
 
 export const About = () => {
@@ -21,7 +22,7 @@ export const About = () => {
       </div>
 
       <div className="about__animation">
-        
+        <SpinCube />
       </div>
     </div>
   );

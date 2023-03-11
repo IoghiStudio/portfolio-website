@@ -1,15 +1,40 @@
-.cube {
+.spincube {
   width: 200px;
   height: 200px;
   position: relative;
   transform-style: preserve-3d;
-  animation: rotate 10s linear infinite;
+  animation: rotate 15s linear infinite;
 }
 
-img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+.image {
+  width: 50%;
+  height: 50%;
+  background-size: cover;
+  transform: translate(50%, 50%);
+
+  &__sass {
+    background-image: url('../../images/sassLogo.svg');
+  }
+
+  &__html {
+    background-image: url('../../images/sassLogo.svg');
+  }
+
+  &__js {
+    background-image: url('../../images/logo-javascript.svg');
+  }
+
+  &__ts {
+    background-image: url('../../images/sassLogo.svg');
+  }
+
+  &__react {
+    background-image: url('../../images/sassLogo.svg');
+  }
+
+  &__git {
+    background-image: url('../../images/sassLogo.svg');
+  }
 }
 
 .box {
@@ -18,10 +43,12 @@ img {
   position: absolute;
   top: 0;
   left: 0;
-  opacity: 0.9;
+  background-color: hsla(0,0%,100%,.4);
+  border: 1px solid #ccc;
+  box-shadow: 0 0 20px 0 #ffffe0;
+  opacity: 1;
 }
 
-/* Applying styles to each face */
 .box1 {
   transform: translateZ(100px);
 }
