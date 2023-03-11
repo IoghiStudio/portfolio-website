@@ -1,18 +1,20 @@
 {
   "files": {
-    "main.css": "/portfolio-website/static/css/main.829d4308.css",
-    "main.js": "/portfolio-website/static/js/main.430dc8e6.js",
+    "main.css": "/portfolio-website/static/css/main.331a3e24.css",
+    "main.js": "/portfolio-website/static/js/main.c2984628.js",
+    "static/media/sassLogo.svg": "/portfolio-website/static/media/sassLogo.3ac36d3be651dfb6d4e5.svg",
     "static/media/N-LOGO.svg": "/portfolio-website/static/media/N-LOGO.3c1ba1f11fa09a9011d9.svg",
+    "static/media/logo-javascript.svg": "/portfolio-website/static/media/logo-javascript.00f3e5cf8bcf4ae623b3.svg",
     "static/media/github-mark-white.svg": "/portfolio-website/static/media/github-mark-white.97ed8e7eef60d61ca469.svg",
     "index.html": "/portfolio-website/index.html",
     "static/media/menu-cross.svg": "/portfolio-website/static/media/menu-cross.d3c5321ccd20d4abe014.svg",
     "static/media/menu.svg": "/portfolio-website/static/media/menu.de5b627fcf9a2a04bf38.svg",
     "static/media/linkedin-logo-circle.svg": "/portfolio-website/static/media/linkedin-logo-circle.8762f6e957e5d6c297b9.svg",
-    "main.829d4308.css.map": "/portfolio-website/static/css/main.829d4308.css.map",
-    "main.430dc8e6.js.map": "/portfolio-website/static/js/main.430dc8e6.js.map"
+    "main.331a3e24.css.map": "/portfolio-website/static/css/main.331a3e24.css.map",
+    "main.c2984628.js.map": "/portfolio-website/static/js/main.c2984628.js.map"
   },
   "entrypoints": [
-    "static/css/main.829d4308.css",
-    "static/js/main.430dc8e6.js"
+    "static/css/main.331a3e24.css",
+    "static/js/main.c2984628.js"
   ]
 }
