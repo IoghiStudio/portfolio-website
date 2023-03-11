@@ -1,3 +1,5 @@
+@import '../../styles/vars.scss';
+
 .about {
   display: flex;
   flex-direction: column;
@@ -9,7 +11,12 @@
   overflow-x: scroll;
 
   box-sizing: border-box;
-  height: calc(100vh - 73px);
+  height: calc(100vh - $header-height);
+
+  @media (min-width: 1100px) {
+    height: 100vh;
+  }
+  
   padding: 50px;
 
   &__page {
