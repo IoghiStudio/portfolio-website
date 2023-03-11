@@ -10,8 +10,8 @@
   display: flex;
   justify-content: space-between;
 
-  padding: 24px;
-
+  box-sizing: border-box;
+  padding: 24px 10px;
   width: 100vw;
   height: 100vh;
 
