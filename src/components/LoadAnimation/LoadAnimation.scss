@@ -8,6 +8,10 @@ $spin-color: gold;
   bottom: 0;
   color: bisque;
 
+  @media (min-width: 1100px) {
+    left: 130px;
+  }
+
   text-align: center;
   z-index: 2;
   
