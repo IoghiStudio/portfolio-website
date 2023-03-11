@@ -37,12 +37,59 @@
   }
 
   &__title {
+    position: relative;
+    left: -30px;
+    padding-bottom: 20px;
+    // font-size: 36px;
 
+    &::before {
+      content: "<h1>";
+      color: gold;
+      position: relative;
+      font-size: 18px;
+      line-height: 18px;
+      left: -10px;
+      top: -30px;
+      opacity: .6;
+    }
+
+    &::after {
+      content: "</h1>";
+      color: gold;
+      position: relative;
+      font-size: 18px;
+      line-height: 18px;
+      left: -175px;
+      bottom: -30px;
+      opacity: .6;
+    }
   }
 
   &__text {
     letter-spacing: 1px;
     font-size: 16px;
+
+    &::before {
+      content: "<p>";
+      color: gold;
+      position: relative;
+      font-size: 18px;
+      line-height: 18px;
+      left: -35px;
+      top: 0px;
+      opacity: .6;
+    }
+
+    &::after {
+      content: "</p>";
+      color: gold;
+      position: relative;
+      font-size: 18px;
+      line-height: 18px;
+      left: -88px;
+      bottom: -20px;
+      opacity: .6;
+    }
   }
 
   &__span {
