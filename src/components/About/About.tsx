@@ -20,7 +20,9 @@ export const About = () => {
         </p>
       </div>
 
-      <div className="about__animation"></div>
+      <div className="about__animation">
+        
+      </div>
     </div>
   );
 }
