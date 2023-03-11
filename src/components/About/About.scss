@@ -6,6 +6,8 @@
     flex-direction: row;
   }
 
+  overflow-x: scroll;
+
   height: 100vh;
   padding: 50px;
 
@@ -15,10 +17,11 @@
     padding: 100px 20px 20px;
 
     text-align: center;
-    font-size: 22px;
+    font-size: 18px;
   }
 
   &__animation {
+    // flex-grow: 1;
   }
 
   &__title {
