@@ -40,7 +40,10 @@
     position: relative;
     left: -30px;
     padding-bottom: 20px;
-    // font-size: 36px;
+    
+    // @media (max-width: 300px) {
+    //   font-size: 20px;
+    // }
 
     &::before {
       content: "<h1>";
@@ -62,7 +65,12 @@
       left: -175px;
       bottom: -30px;
       opacity: .6;
+
+      // @media (max-width: 300px) {
+      //   left: -145px;
+      // }
     }
+
   }
 
   &__text {
