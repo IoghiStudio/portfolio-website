@@ -31,7 +31,7 @@ export const Home: React.FC<Props> = ({ onLoad }) => {
 
         <Link
           to='/contact'
-          onClick={() => onLoad(1000) }
+          onClick={() => onLoad(500) }
         >
           Contact me!
         </Link>
