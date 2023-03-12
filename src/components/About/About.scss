@@ -46,7 +46,7 @@
 
     &::before {
       content: "<h1>";
-      color: gold;
+      color: $tagColor;
       position: relative;
       font-size: 18px;
       line-height: 18px;
@@ -57,7 +57,7 @@
 
     &::after {
       content: "</h1>";
-      color: gold;
+      color: $tagColor;
       position: relative;
       font-size: 18px;
       line-height: 18px;
@@ -78,7 +78,7 @@
 
     &::before {
       content: "<p>";
-      color: gold;
+      color: $tagColor;
       position: relative;
       font-size: 18px;
       line-height: 18px;
@@ -89,7 +89,7 @@
 
     &::after {
       content: "</p>";
-      color: gold;
+      color: $tagColor;
       position: relative;
       font-size: 18px;
       line-height: 18px;

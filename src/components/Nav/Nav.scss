@@ -1,3 +1,5 @@
+@import url('../../styles/_vars.scss');
+
 .nav {
   margin: 0 auto;
 
@@ -23,15 +25,20 @@
     
     font-size: 12px;
     line-height: 12px;
+    font-weight: 700;
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 2px;
     border-bottom: 2px solid transparent;
+    color: #515152;
 
     &:hover {
       border-color: #ca2e2e;
     }
 
-    color: gold;
+    &--active {
+      color: gold;
+    }
+
   }
 }
