@@ -17,7 +17,10 @@ export const About = () => {
           </span>
           <span className="about__span">
           My goal is to become a Senior Full Stack Developer and to bring value to the company I’m working for and the people I collaborate with.
-          </span> And of course to prove to myself that my sharp mind and problem solving skills will help me succeed in any environment or problem I am facing.
+          </span>
+          <span className="about__span">
+          And of course to prove to myself that my sharp mind and problem solving skills will help me succeed in any environment or problem I am facing.
+          </span>
         </p>
       </div>
 
