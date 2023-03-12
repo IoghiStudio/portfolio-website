@@ -43,6 +43,7 @@
     position: relative;
     left: -30px;
     padding-bottom: 20px;
+    min-width: 150px;
     
     // @media (max-width: 300px) {
     //   font-size: 20px;
@@ -79,6 +80,8 @@
   &__text {
     letter-spacing: 1px;
     font-size: 16px;
+    max-width: 600px;
+    min-width: 150px;
 
     &::before {
       content: "<p>";
