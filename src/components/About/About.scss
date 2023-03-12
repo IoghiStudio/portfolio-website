@@ -12,7 +12,11 @@
 
   box-sizing: border-box;
   height: calc(100vh - $header-height);
-  padding: 60px;
+  padding: 40px;
+
+  @media (min-width: 700px) {
+    padding: 80px;
+  }
 
   @media (min-width: 1100px) {
     height: 100vh;

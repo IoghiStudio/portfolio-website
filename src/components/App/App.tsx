@@ -23,7 +23,7 @@ export const App = () => {
   useEffect(() => {
     setTimeout(() => {
       setShowAnimation(false);
-    }, 1000);
+    }, 100);
   }, [])
 
   const handleMenuOpener = () => {
@@ -41,7 +41,7 @@ export const App = () => {
   const closeMenu = () => {
     setShouldShowMenu(false);
 
-    loadingAnimation(1000);
+    loadingAnimation(100);
   }
 
 
