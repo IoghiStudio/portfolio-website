@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-website/static/css/main.e823fd82.css",
-    "main.js": "/portfolio-website/static/js/main.25430566.js",
+    "main.css": "/portfolio-website/static/css/main.72140750.css",
+    "main.js": "/portfolio-website/static/js/main.1ee406a0.js",
     "static/media/sassLogo.svg": "/portfolio-website/static/media/sassLogo.3ac36d3be651dfb6d4e5.svg",
     "static/media/reactLogo.svg": "/portfolio-website/static/media/reactLogo.e68b35f4774979ae220b.svg",
     "static/media/N-LOGO.svg": "/portfolio-website/static/media/N-LOGO.3c1ba1f11fa09a9011d9.svg",
@@ -14,11 +14,11 @@
     "static/media/menu-cross.svg": "/portfolio-website/static/media/menu-cross.d3c5321ccd20d4abe014.svg",
     "static/media/menu.svg": "/portfolio-website/static/media/menu.de5b627fcf9a2a04bf38.svg",
     "static/media/linkedin-logo-circle.svg": "/portfolio-website/static/media/linkedin-logo-circle.8762f6e957e5d6c297b9.svg",
-    "main.e823fd82.css.map": "/portfolio-website/static/css/main.e823fd82.css.map",
-    "main.25430566.js.map": "/portfolio-website/static/js/main.25430566.js.map"
+    "main.72140750.css.map": "/portfolio-website/static/css/main.72140750.css.map",
+    "main.1ee406a0.js.map": "/portfolio-website/static/js/main.1ee406a0.js.map"
   },
   "entrypoints": [
-    "static/css/main.e823fd82.css",
-    "static/js/main.25430566.js"
+    "static/css/main.72140750.css",
+    "static/js/main.1ee406a0.js"
   ]
 }
