@@ -21,7 +21,7 @@ export const Media = () => {
       <li className='media__item'>
         <a
           className="media__icon media__icon--linkedin" 
-          href="https://github.com/IoghiStudio"
+          href="https://www.linkedin.com/in/nicusor-iorga/"
           target="_blank"
           rel="noreferrer"
         >

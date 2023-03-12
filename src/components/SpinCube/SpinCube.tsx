@@ -12,11 +12,11 @@ return (
 		</div>
 
 		<div className="box box3">
-			<div className="image image__js"></div>
+			<div className="image image__ts"></div>
 		</div>
 
 		<div className="box box4">
-			<div className="image image__ts"></div>
+			<div className="image image__js"></div>
 		</div>
 
 		<div className="box box5">
