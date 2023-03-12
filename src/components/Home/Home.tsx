@@ -21,7 +21,7 @@ export const Home: React.FC<Props> = ({ onLoad }) => {
           </span>
 
           <span className="home__span title-word title-word-3">
-            Web developer,
+            Web developer
           </span>
         </h1>
 

@@ -117,30 +117,24 @@
 
 .title-word {
   animation: color-animation 3s linear infinite;
-}
 
-.title-word-1 {
-  --color-1: #DF8453;
-  --color-2: #3D8DAE;
-  --color-3: #E4A9A8;
-}
+  &-1 {
+    --color-1: #DF8453;
+    --color-2: #3D8DAE;
+    --color-3: #E4A9A8;
+  }
 
-.title-word-2 {
-  --color-1: #DBAD4A;
-  --color-2: #ACCFCB;
-  --color-3: #17494D;
-}
+  &-2 {
+    --color-1: #DBAD4A;
+    --color-2: #ACCFCB;
+    --color-3: #17494D;
+  }
 
-.title-word-3 {
-  --color-1: #ACCFCB;
-  --color-2: #E4A9A8;
-  --color-3: #adcfac;
-}
-
-.title-word-4 {
-  --color-1: #1517b6;
-  --color-2: #198069;
-  --color-3: #e74cb9;
+  &-3 {
+    --color-1: #ACCFCB;
+    --color-2: #E4A9A8;
+    --color-3: #adcfac;
+  }
 }
 
 @keyframes color-animation {
@@ -152,3 +146,4 @@
   99%   {color: var(--color-3)}
   100%  {color: var(--color-1)}
 }
+
