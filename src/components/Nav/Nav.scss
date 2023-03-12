@@ -31,6 +31,8 @@
     letter-spacing: 2px;
     border-bottom: 2px solid transparent;
     color: #515152;
+    transition-property: color border-color;
+    transition-duration: 150ms ;
 
     &:hover {
       color: #c544df;
