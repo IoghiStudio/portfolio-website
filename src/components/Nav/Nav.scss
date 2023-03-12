@@ -33,11 +33,13 @@
     color: #515152;
 
     &:hover {
-      border-color: #ca2e2e;
+      color: #c544df;
+      border-color: #2747d8;
     }
 
     &--active {
       color: gold;
+      border-color: gold;
     }
 
   }
