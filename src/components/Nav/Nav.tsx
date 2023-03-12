@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link} from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import cn from 'classnames';
 
 import './Nav.scss';
@@ -9,7 +9,10 @@ type Props = {
 }
 
 export const Nav: React.FC<Props> = ({ closeMenu }) => {
-  const [selectedPage, setSelectedPage] = useState(1);
+  // const [selectedPage, setSelectedPage] = useState(1);
+  const location = useLocation();
+  console.log(location);
+  const currentPage = location.pathname;
 
   return (
     <div className="nav">
@@ -19,14 +22,11 @@ export const Nav: React.FC<Props> = ({ closeMenu }) => {
             className={cn(
               'nav__link',
               {
-                'nav__link--active': selectedPage === 1,
+                'nav__link--active': currentPage === '/',
               }
             )}
             to="/"
-            onClick={() => {
-              closeMenu();
-              setSelectedPage(1);
-            }}
+            onClick={closeMenu}
           >
             Home
           </Link>
@@ -37,14 +37,11 @@ export const Nav: React.FC<Props> = ({ closeMenu }) => {
             className={cn(
               'nav__link',
               {
-                'nav__link--active': selectedPage === 2,
+                'nav__link--active': currentPage === '/about',
               }
             )}
             to="/about"
-            onClick={() => {
-              closeMenu();
-              setSelectedPage(2);
-            }}
+            onClick={closeMenu}
           >
             About
           </Link>
@@ -55,14 +52,11 @@ export const Nav: React.FC<Props> = ({ closeMenu }) => {
             className={cn(
               'nav__link',
               {
-                'nav__link--active': selectedPage === 3,
+                'nav__link--active': currentPage === '/portfolio',
               }
             )}
-              to="/portofolio"
-              onClick={() => {
-                closeMenu();
-                setSelectedPage(3);
-              }}
+              to="/portfolio"
+              onClick={closeMenu}
             >
             Portofolio
           </Link>
@@ -73,14 +67,11 @@ export const Nav: React.FC<Props> = ({ closeMenu }) => {
             className={cn(
               'nav__link',
               {
-                'nav__link--active': selectedPage === 4,
+                'nav__link--active': currentPage === '/blog',
               }
             )}
               to="/blog"
-              onClick={() => {
-                closeMenu();
-                setSelectedPage(4);
-              }}
+              onClick={closeMenu}
             >
             Blog
           </Link>
@@ -91,14 +82,11 @@ export const Nav: React.FC<Props> = ({ closeMenu }) => {
             className={cn(
               'nav__link',
               {
-                'nav__link--active': selectedPage === 5,
+                'nav__link--active': currentPage === '/contact',
               }
             )}
               to="/contact"
-              onClick={() => {
-                closeMenu();
-                setSelectedPage(5);
-              }}
+              onClick={closeMenu}
             >
             Contact
           </Link>

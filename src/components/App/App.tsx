@@ -11,7 +11,7 @@ import { Header } from '../Header';
 import { Home } from '../Home';
 import { LoadAnimation } from '../LoadAnimation';
 import { Menu } from '../Menu';
-import { Portofolio } from '../Portofolio';
+import { Portfolio } from '../Portfolio';
 import { SideBar } from '../SideBar';
 
 import './App.scss';
@@ -86,8 +86,8 @@ export const App = () => {
           />
 
           <Route
-            path="/portofolio"
-            element={<Portofolio/>}
+            path="/portfolio"
+            element={<Portfolio/>}
           />
 
           <Route
