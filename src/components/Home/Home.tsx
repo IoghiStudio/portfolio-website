@@ -30,6 +30,7 @@ export const Home: React.FC<Props> = ({ onLoad }) => {
         </p>
 
         <Link
+          className='home__contact-button'
           to='/contact'
           onClick={() => onLoad(500) }
         >

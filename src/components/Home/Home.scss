@@ -33,6 +33,26 @@
     }
   }
 
+  &__contact-button {
+    display: block;
+    border: 1px solid gold;
+    text-decoration: none;
+    color: #fff;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    transition-property: background-color, color, transform;
+    transition-duration: 350ms;
+
+    &:hover {
+      background-color: gold;
+      color: $bg-gray;
+      transform: scale(1.1);
+    }
+  }
+
   &__animation {
     display: flex;
     flex-basis: 50%;
