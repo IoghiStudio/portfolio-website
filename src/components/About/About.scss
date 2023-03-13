@@ -8,8 +8,7 @@
     flex-direction: row;
   }
 
-  overflow-x: hidden;
-  overflow-y: auto;
+  letter-spacing: 1px;
 
   box-sizing: border-box;
   height: calc(100vh - $header-height);
@@ -41,10 +40,12 @@
   }
 
   &__title {
+    letter-spacing: 1px;
     position: relative;
     left: -30px;
     padding-bottom: 20px;
     min-width: 150px;
+    font-size: 32px;
     
     // @media (max-width: 300px) {
     //   font-size: 20px;
@@ -67,7 +68,7 @@
       position: relative;
       font-size: 18px;
       line-height: 18px;
-      left: -175px;
+      left: -189px;
       bottom: -30px;
       opacity: .6;
 
