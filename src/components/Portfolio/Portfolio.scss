@@ -25,7 +25,7 @@
 
   &__project {
     width: 200px;
-    height: 350px;
+    height: 400px;
     background-color: #222;
     padding: 13px;
     border: 1px solid #000;
@@ -34,7 +34,7 @@
 
     @media (min-width: 900px) {
       width: 300px;
-      height: 500px;
+      height: 525px;
     }
   }
 
@@ -87,5 +87,45 @@
     @media (min-width: 900px) {
       font-size: 16px;
     }
+  }
+
+  &__links {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 45px;
+    width: 200px;
+    height: 50px;
+    // background-color: #caca5c;
+
+    @media (min-width: 900px) {
+      width: 300px;
+    }
+  }
+
+  &__link {
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    border: 1px solid #ffffe0;
+    padding: 5px 20px;
+    transition-property: border-color, background-color, color, transform;
+    transition-duration: 350ms;
+
+    &:hover {
+      background-color: #ffffe0;
+      border-color: transparent;
+      color: #222;
+      transform: scale(1.1);
+    }
+  }
+
+  &__demo {
+
+  }
+  
+  &__code {
+
   }
 }
