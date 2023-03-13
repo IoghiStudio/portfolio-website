@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-website/static/css/main.cdcd05d5.css",
-    "main.js": "/portfolio-website/static/js/main.662881ad.js",
+    "main.css": "/portfolio-website/static/css/main.0e533460.css",
+    "main.js": "/portfolio-website/static/js/main.02b87fa8.js",
     "static/media/MyBike-image.png": "/portfolio-website/static/media/MyBike-image.44f882c963e8324b152c.png",
     "static/media/todoapp-image.png": "/portfolio-website/static/media/todoapp-image.2f1d98cb4787208a3188.png",
     "static/media/sassLogo.svg": "/portfolio-website/static/media/sassLogo.3ac36d3be651dfb6d4e5.svg",
@@ -16,11 +16,11 @@
     "static/media/menu-cross.svg": "/portfolio-website/static/media/menu-cross.d3c5321ccd20d4abe014.svg",
     "static/media/menu.svg": "/portfolio-website/static/media/menu.de5b627fcf9a2a04bf38.svg",
     "static/media/linkedin-logo-circle.svg": "/portfolio-website/static/media/linkedin-logo-circle.8762f6e957e5d6c297b9.svg",
-    "main.cdcd05d5.css.map": "/portfolio-website/static/css/main.cdcd05d5.css.map",
-    "main.662881ad.js.map": "/portfolio-website/static/js/main.662881ad.js.map"
+    "main.0e533460.css.map": "/portfolio-website/static/css/main.0e533460.css.map",
+    "main.02b87fa8.js.map": "/portfolio-website/static/js/main.02b87fa8.js.map"
   },
   "entrypoints": [
-    "static/css/main.cdcd05d5.css",
-    "static/js/main.662881ad.js"
+    "static/css/main.0e533460.css",
+    "static/js/main.02b87fa8.js"
   ]
 }
