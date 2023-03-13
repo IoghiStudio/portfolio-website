@@ -24,34 +24,47 @@
   }
 
   &__project {
-    width: 150px;
-    height: 300px;
+    width: 200px;
+    height: 400px;
     background-color: #222;
     padding: 13px;
     border: 1px solid #000;
     box-shadow: 0 0 10px 0 #ffffe0;
+    border-radius: 4px;
 
     @media (min-width: 900px) {
-      width: 175px;
-      height: 325px;
+      width: 300px;
+      height: 600px;
     }
   }
 
   &__image {
     flex-grow: 1;
     background-color: magenta;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     transition-property: transform;
     transition-duration: 350ms;
+    border-radius: 4px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
     &:hover {
-      transform: rotate(10deg);
+      transform: rotate(5deg) scale(1.1);
     }
 
     @media (min-width: 900px) {
-      width: 175px;
-      height: 175px;
+      width: 300px;
+      height: 300px;
+    }
+
+    &--mybike {
+      background-image: url(../../images/portfolio-images/MyBike-image.png);
+    }
+
+    &--todoapp {
+      background-image: url(../../images/portfolio-images/todoapp-image.png);
     }
   }
 }

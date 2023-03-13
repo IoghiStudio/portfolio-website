@@ -19,9 +19,9 @@ export const Portfolio = () => {
             Just random description
           </p>
         </div>
-        
+
         <div className="portfolio__project">
-          <div className="portfolio__image portfolio__image--mybike">
+          <div className="portfolio__image portfolio__image--todoapp">
             
           </div>
 
@@ -35,7 +35,7 @@ export const Portfolio = () => {
         </div>
 
         <div className="portfolio__project">
-          <div className="portfolio__image portfolio__image--mybike">
+          <div className="portfolio__image portfolio__image-">
             
           </div>
 
@@ -49,7 +49,7 @@ export const Portfolio = () => {
         </div>
 
         <div className="portfolio__project">
-          <div className="portfolio__image portfolio__image--mybike">
+          <div className="portfolio__image portfolio__image--mybik">
             
           </div>
 
@@ -63,7 +63,7 @@ export const Portfolio = () => {
         </div>
 
         <div className="portfolio__project">
-          <div className="portfolio__image portfolio__image--mybike">
+          <div className="portfolio__image portfolio__image--todoap">
             
           </div>
 
