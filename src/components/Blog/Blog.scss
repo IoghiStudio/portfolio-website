@@ -1,0 +1,13 @@
+.blog {
+  // background-color: aqua;
+
+  &__title {
+    text-align: center;
+    font-size: 40px;
+  }
+
+  &__text {
+    text-align: center;
+    font-size: 30px;
+  }
+}
