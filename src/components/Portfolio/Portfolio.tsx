@@ -15,8 +15,8 @@ export const Portfolio = () => {
             MyBike Landing Page
           </h3>
 
-          <p className='portoflio__description'>
-            Just random description
+          <p className='portfolio__description'>
+            Responsive landing page for mobile, tablet and desktop. Technologies used there are html for markup , scss preproccesor for styles, BEM methodology and some lines of javascript.
           </p>
         </div>
 
@@ -26,11 +26,11 @@ export const Portfolio = () => {
           </div>
 
           <h3 className="portfolio__title">
-            MyBike Landing Page
+            TodoApp with API
           </h3>
 
-          <p className='portoflio__description'>
-            Just random description
+          <p className='portfolio__description'>
+            API is used, starting with creating an account with your email and name. You can post, update, delete, and also get the todos from previous session. Everything is saved to the API.
           </p>
         </div>
 
@@ -43,7 +43,7 @@ export const Portfolio = () => {
             MyBike Landing Page
           </h3>
 
-          <p className='portoflio__description'>
+          <p className='portfolio__description'>
             Just random description
           </p>
         </div>
@@ -57,7 +57,7 @@ export const Portfolio = () => {
             MyBike Landing Page
           </h3>
 
-          <p className='portoflio__description'>
+          <p className='portfolio__description'>
             Just random description
           </p>
         </div>
@@ -71,7 +71,7 @@ export const Portfolio = () => {
             MyBike Landing Page
           </h3>
 
-          <p className='portoflio__description'>
+          <p className='portfolio__description'>
             Just random description
           </p>
         </div>

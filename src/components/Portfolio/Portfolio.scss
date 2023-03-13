@@ -25,7 +25,7 @@
 
   &__project {
     width: 200px;
-    height: 400px;
+    height: 350px;
     background-color: #222;
     padding: 13px;
     border: 1px solid #000;
@@ -34,13 +34,13 @@
 
     @media (min-width: 900px) {
       width: 300px;
-      height: 600px;
+      height: 500px;
     }
   }
 
   &__image {
     flex-grow: 1;
-    background-color: magenta;
+    background-color: rgb(109, 84, 86);
     width: 200px;
     height: 200px;
     transition-property: transform;
@@ -65,6 +65,27 @@
 
     &--todoapp {
       background-image: url(../../images/portfolio-images/todoapp-image.png);
+    }
+  }
+
+  &__title {
+    text-align: center;
+    margin: 0;
+    padding-top: 10px;
+    font-size: 16px;
+
+    @media (min-width: 900px) {
+      font-size: 20px;
+    }
+  }
+
+  &__description {
+    padding: 2px;
+    margin: 0;
+    font-size: 12px;
+    
+    @media (min-width: 900px) {
+      font-size: 16px;
     }
   }
 }

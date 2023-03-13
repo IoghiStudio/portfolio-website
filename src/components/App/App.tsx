@@ -41,7 +41,7 @@ export const App = () => {
   const closeMenu = () => {
     setShouldShowMenu(false);
 
-    loadingAnimation(100);
+    // loadingAnimation(500);
   }
 
 
