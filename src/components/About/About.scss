@@ -8,7 +8,8 @@
     flex-direction: row;
   }
 
-  letter-spacing: 1px;
+  overflow-x: hidden;
+  overflow-y: auto;
 
   box-sizing: border-box;
   height: calc(100vh - $header-height);

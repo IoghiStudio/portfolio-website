@@ -8,6 +8,10 @@
   height: calc(100vh - 80px);
   padding: 40px;
 
+  overflow-x: hidden;
+  overflow-y: auto;
+
+
   @media (min-width: 700px) {
     padding: 80px;
   }
@@ -33,8 +37,12 @@
   }
 
   &__title {
+    min-width: 150px;
+    position: relative;
+    left: -30px;
     font-size: 32px;
     letter-spacing: 1px;
+    padding-bottom: 20px;
 
     &::before {
       content: "<h1>";
@@ -64,8 +72,28 @@
   }
 
   &__text {
+    
+    &-container {
+      min-width: 150px;
+      // background-color: red;
+
+      &::after {
+        content: "</p>";
+        color: $tagColor;
+        position: relative;
+        font-size: 18px;
+        line-height: 18px;
+        left: -35px;
+        bottom: 35px;
+        opacity: .6;
+      }
+    }
+
+
     letter-spacing: 1px;
     font-size: 16px;
+    padding: 20px 0;
+    // text-align: center;
 
     &::before {
       content: "<p>";
@@ -74,30 +102,75 @@
       font-size: 18px;
       line-height: 18px;
       left: -35px;
-      top: 5px;
-      opacity: .6;
-    }
-
-    &::after {
-      content: "</p>";
-      color: $tagColor;
-      position: relative;
-      font-size: 18px;
-      line-height: 18px;
-      left: -36px;
-      bottom: 20px;
+      top: -15px;
       opacity: .6;
     }
   }
 }
 
-// .map {
-//   position: relative;
-//   top: 0;
-//   right: 0;
-//   bottom: 0;
-//   width: 50%;
-//   height: 100%;
-//   background-color: green;
-//   // flex-basis: 50%;
-// }
+.form {
+  min-width: 150px;
+
+  &__input {
+    border: 0;
+    box-sizing: border-box;
+    background-color: $input-bg;
+    padding: 0 20px;
+    color: #fff;
+    margin: 0 0 10px;
+    outline: none;
+
+    &:hover {
+      border: 1px solid gold;
+    }
+
+    &::placeholder {
+      // border: 0;
+      font-family: Arial, Arial, Helvetica, sans-serif;
+      font-size: 16px;
+    }
+
+    &:focus{
+      background-color: #292e33;
+    }
+  }
+
+  &__name {
+    width: 49%;
+    height: 50px;
+  }
+  
+  &__email {
+    float: right;
+    width: 49%;
+    height: 50px;
+    margin-left: 2%;
+  }
+
+  &__subject {
+    height: 50px;
+    width: 100%;
+  }
+
+  &__message {
+    height: 100px;
+    width: 100%;
+    padding: 20px;
+  }
+
+  &__submit {
+    background-color: $input-bg;
+    border: 1px solid gold;
+    width: 150px;
+    height: 50px;
+    float: right;
+    color: #fff;
+    cursor: pointer;
+
+    transition: transform 350ms;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}
