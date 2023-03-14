@@ -116,7 +116,8 @@
     box-sizing: border-box;
     background-color: $input-bg;
     padding: 0 20px;
-    color: #fff;
+    color: #a1a1a1;
+    font-size: 16px;
     margin: 0 0 10px;
     outline: none;
 
@@ -132,6 +133,7 @@
 
     &:focus{
       background-color: #292e33;
+      border-bottom: 2px solid gold;
     }
   }
 
@@ -157,6 +159,7 @@
     width: 100%;
     padding: 20px;
     resize: none;
+    font-family: Arial, Helvetica, sans-serif;
   }
 
   &__submit {
