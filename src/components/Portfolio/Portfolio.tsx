@@ -55,7 +55,7 @@ export const Portfolio = () => {
 
           <div className="portfolio__links">
             <a
-              href='https://ioghistudio.github.io/layout_my-bike/'
+              href='https://ioghistudio.github.io/react_todo-app-with-api/'
               target="_blank"
               rel="noreferrer"
               className="portfolio__link portfolio__demo"
@@ -64,7 +64,7 @@ export const Portfolio = () => {
             </a>
 
             <a
-              href='https://github.com/IoghiStudio/layout_my-bike/tree/develop/src'
+              href='https://github.com/IoghiStudio/react_todo-app-with-api/tree/final/src'
               target="_blank"
               rel="noreferrer"
               className="portfolio__link portfolio__code"
