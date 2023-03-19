@@ -3,6 +3,8 @@
 .home {
   display: flex;
   flex-direction: column;
+  background-image: linear-gradient(65deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  animation: gradient 5s ease infinite;
 
   @media (min-width: 900px) {
     flex-direction: row;
