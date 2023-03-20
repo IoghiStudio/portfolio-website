@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useState, useEffect} from 'react';
 import './Home.scss';
+import cn from 'classnames';
 import { SpinCube } from '../SpinCube';
 import { Link } from 'react-router-dom';
 
@@ -8,8 +9,21 @@ type Props = {
 }
 
 export const Home: React.FC<Props> = ({ onLoad }) => {
+  const [showAnim, setShowAnim] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setShowAnim(false);
+    }, 4000)
+  }, []);
+
   return (
-    <div className="home">
+    <div className={cn(
+      "home",
+      {
+        'home--anim': showAnim,
+      }
+    )}>
       <div className="home__page">
         <h1 className="home__title">
           <span className="home__span title-word title-word-1">
