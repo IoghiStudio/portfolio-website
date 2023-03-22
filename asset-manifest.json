@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-website/static/css/main.f6cde1bb.css",
-    "main.js": "/portfolio-website/static/js/main.25685260.js",
+    "main.js": "/portfolio-website/static/js/main.78dbe637.js",
     "static/media/MyBike-image.png": "/portfolio-website/static/media/MyBike-image.44f882c963e8324b152c.png",
     "static/media/todoapp-image.png": "/portfolio-website/static/media/todoapp-image.2f1d98cb4787208a3188.png",
     "static/media/sassLogo.svg": "/portfolio-website/static/media/sassLogo.a6a7fc2db89a488dad07.svg",
@@ -17,10 +17,10 @@
     "static/media/menu.svg": "/portfolio-website/static/media/menu.fdd3220ff3367795f4cf.svg",
     "static/media/linkedin-logo-circle.svg": "/portfolio-website/static/media/linkedin-logo-circle.8762f6e957e5d6c297b9.svg",
     "main.f6cde1bb.css.map": "/portfolio-website/static/css/main.f6cde1bb.css.map",
-    "main.25685260.js.map": "/portfolio-website/static/js/main.25685260.js.map"
+    "main.78dbe637.js.map": "/portfolio-website/static/js/main.78dbe637.js.map"
   },
   "entrypoints": [
     "static/css/main.f6cde1bb.css",
-    "static/js/main.25685260.js"
+    "static/js/main.78dbe637.js"
   ]
 }
