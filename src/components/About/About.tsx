@@ -28,9 +28,20 @@ export const About = () => {
           <span className="about__span">
           And of course to prove to myself that my sharp mind and problem solving skills will help me succeed in any environment or problem I am facing.
           </span>
+
+          <span className="about__span">
+          My expertise includes Typescript, Javascript, React.js, HTML, CSS/SCSS with BEM methodology, Rest API, Git, and more.
+          </span>
           
           <span className="about__span">
-          And of course to prove to myself that my sharp mind and problem solving skills will help me succeed in any environment or problem I am facing.
+          You can download my CV with pdf format here
+          <a
+            className='about__cv'
+            href="../../CV/Nicusor Iorga CV.pdf"
+            download
+          >
+            Nicusor Iorga CV.pdf
+          </a>
           </span>
         </p>
       </div>

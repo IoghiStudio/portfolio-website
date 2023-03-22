@@ -113,6 +113,15 @@
     display: block;
     padding-bottom: 20px;
   }
+
+  &__cv {
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: gold;
+    padding-left: 10px;
+  }
 }
 
 .animate-charcter {
