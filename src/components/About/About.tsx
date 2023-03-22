@@ -38,7 +38,8 @@ export const About = () => {
           <a
             className='about__cv'
             href="https://github.com/IoghiStudio/portfolio-website/blob/main/src/CV/nicusoriorgacv.pdf"
-            download
+            target="_blank"
+            rel="noreferrer"
           >
             Nicusor Iorga CV.pdf
           </a>
