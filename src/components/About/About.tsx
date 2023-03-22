@@ -10,14 +10,25 @@ export const About = () => {
 
         <p className="about__text">
           <span className="about__span">
-          Just call me Nicu! I am a Front End Developer looking to improve myself and my technical    skills everyday with passion for technology.
+          Just call me Nicu! As a Front End Developer with a background in game development and 3D art
           </span>
+          
           <span className="about__span">
-          I combine my programming and design skills with background in game development and 3D Art.
+          I combine programming and design skills to create exceptional web applications
           </span>
+
           <span className="about__span">
-          My goal is to become a Senior Full Stack Developer and to bring value to the company I’m working for and the people I collaborate with.
+          Passionate about technology, I am committed to continuous self-improvement and aspire to become a Senior Full Stack Developer
           </span>
+
+          <span className="about__span">
+          I want to bring value to the company I’m working for and the people I collaborate with.
+          </span>
+
+          <span className="about__span">
+          And of course to prove to myself that my sharp mind and problem solving skills will help me succeed in any environment or problem I am facing.
+          </span>
+          
           <span className="about__span">
           And of course to prove to myself that my sharp mind and problem solving skills will help me succeed in any environment or problem I am facing.
           </span>
