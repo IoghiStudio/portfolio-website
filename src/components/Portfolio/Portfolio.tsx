@@ -4,7 +4,7 @@ import './Portfolio.scss';
 const projects = [
   {
     title: 'MyBike Landing Page',
-    description: 'Responsive landing page for mobile, tablet and desktop. Technologies used there are html for markup , scss preproccesor for styles, BEM methodology and some lines of javascript.',
+    description: 'Responsive landing page for mobile, tablet and desktop. Technologies used there are html for markup , scss preprocessor for styles, BEM methodology and some lines of javascript.',
     demolink: 'https://ioghistudio.github.io/layout_my-bike/',
     codelink: 'https://github.com/IoghiStudio/layout_my-bike/tree/develop/src',
     extraclass: 'portfolio__image--mybike'
