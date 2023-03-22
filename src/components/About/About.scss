@@ -115,12 +115,18 @@
   }
 
   &__cv {
+    display: inline-block;
     font-size: 18px;
     font-weight: 700;
     letter-spacing: 2px;
     text-decoration: none;
     color: gold;
-    padding-left: 10px;
+    padding-left: 20px;
+    transition: transform 350ms;
+
+    &:hover {
+      transform: scale(1.1);
+    }
   }
 }
 
