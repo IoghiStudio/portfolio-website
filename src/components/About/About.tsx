@@ -37,7 +37,7 @@ export const About = () => {
           You can download my CV with pdf format here
           <a
             className='about__cv'
-            href="../../CV/Nicusor Iorga CV.pdf"
+            href="../../CV/nicusoriorgacv.pdf"
             download
           >
             Nicusor Iorga CV.pdf
