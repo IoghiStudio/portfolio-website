@@ -10,10 +10,7 @@ export const About = () => {
 
         <p className="about__text">
           <span className="about__span">
-          Just call me Nicu! As a Front End Developer with a background in game development and 3D art
-          </span>
-          
-          <span className="about__span">
+          Just call me Nicu! As a Front End Developer with a background in game development and 3D art.
           I combine programming and design skills to create exceptional web applications
           </span>
 
