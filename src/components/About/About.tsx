@@ -34,7 +34,7 @@ export const About = () => {
           You can see my CV with pdf format here
           <a
             className='about__cv'
-            href="https://github.com/IoghiStudio/portfolio-website/blob/main/src/CV/nicusoriorgacv.pdf"
+            href="https://github.com/IoghiStudio/portfolio-website/blob/main/src/CV/nicusoriorga%20CV.pdf"
             target="_blank"
             rel="noreferrer"
           >
