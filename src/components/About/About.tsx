@@ -31,7 +31,7 @@ export const About = () => {
           </span>
           
           <span className="about__span">
-          You can download my CV with pdf format here
+          You can see my CV with pdf format here
           <a
             className='about__cv'
             href="https://github.com/IoghiStudio/portfolio-website/blob/main/src/CV/nicusoriorgacv.pdf"
