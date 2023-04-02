@@ -10,8 +10,7 @@ export const About = () => {
 
         <p className="about__text">
           <span className="about__span">
-          Just call me Nicu! As a Front End Developer with a background in game development and 3D art.
-          I combine programming and design skills to create exceptional web applications
+          Just call me Nicu! i am Passionate Front End Developer with 2 years of experience. With a strong background in Game Development and 3D Art. I combine my programming and design skills to create outstanding web applications.
           </span>
 
           <span className="about__span">
@@ -24,6 +23,10 @@ export const About = () => {
 
           <span className="about__span">
           And of course to prove to myself that my sharp mind and problem solving skills will help me succeed in any environment or problem I am facing.
+          </span>
+
+          <span className="about__span">
+          I’m an excellent communicator and problem solver, and am highly organized and detail-oriented. I am looking for new opportunities to apply my skills and knowledge to help create successful projects.
           </span>
 
           <span className="about__span">
