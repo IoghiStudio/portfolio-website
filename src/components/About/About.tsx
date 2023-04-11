@@ -14,6 +14,10 @@ export const About = () => {
           </span>
 
           <span className="about__span">
+          I’m an excellent communicator and problem solver, and am highly organized and detail-oriented. I am looking for new opportunities to apply my skills and knowledge to help create successful projects.
+          </span>
+
+          <span className="about__span">
           Passionate about technology, I am committed to continuous self-improvement and aspire to become a Senior Full Stack Developer
           </span>
 
@@ -23,10 +27,6 @@ export const About = () => {
 
           <span className="about__span">
           And of course to prove to myself that my sharp mind and problem solving skills will help me succeed in any environment or problem I am facing.
-          </span>
-
-          <span className="about__span">
-          I’m an excellent communicator and problem solver, and am highly organized and detail-oriented. I am looking for new opportunities to apply my skills and knowledge to help create successful projects.
           </span>
 
           <span className="about__span">
