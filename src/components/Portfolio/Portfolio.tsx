@@ -3,8 +3,15 @@ import './Portfolio.scss';
 
 const projects = [
   {
+    title: 'Ecommerce store',
+    description: 'An online store with apple products. Mobile first , responsive UI, Frontend done, backend work in progress.. Teckstack: React, Typescript, Scss, Express.js PostgreSql',
+    demolink: 'https://ioghistudio.github.io/product-catalog/',
+    codelink: 'https://github.com/IoghiStudio/product-catalog/blob/main/src/Components/ProductDetailsPage/ProductDetailsPage.tsx',
+    extraclass: 'portfolio__image--store'
+  },
+  {
     title: 'MyBike Landing Page',
-    description: 'Responsive landing page for mobile, tablet and desktop. Technologies used there are html for markup , scss preprocessor for styles, BEM methodology and some lines of javascript.',
+    description: 'Responsive landing page for mobile, tablet and desktop. I did that project to train clean code and make all style blocks reusable. Techstack: Html, Scss, BEM, Javascript.',
     demolink: 'https://ioghistudio.github.io/layout_my-bike/',
     codelink: 'https://github.com/IoghiStudio/layout_my-bike/tree/develop/src',
     extraclass: 'portfolio__image--mybike'
