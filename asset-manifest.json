@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/portfolio-website/static/css/main.43b0c414.css",
-    "main.js": "/portfolio-website/static/js/main.44cbe667.js",
+    "main.css": "/portfolio-website/static/css/main.2112afb7.css",
+    "main.js": "/portfolio-website/static/js/main.31111eea.js",
     "static/media/MyBike-image.png": "/portfolio-website/static/media/MyBike-image.44f882c963e8324b152c.png",
+    "static/media/store-image.png": "/portfolio-website/static/media/store-image.44259ba465fe10178da2.png",
     "static/media/todoapp-image.png": "/portfolio-website/static/media/todoapp-image.2f1d98cb4787208a3188.png",
     "static/media/sassLogo.svg": "/portfolio-website/static/media/sassLogo.a6a7fc2db89a488dad07.svg",
     "static/media/reactLogo.svg": "/portfolio-website/static/media/reactLogo.e68b35f4774979ae220b.svg",
@@ -16,11 +17,11 @@
     "static/media/menu-cross.svg": "/portfolio-website/static/media/menu-cross.3a2f88addaa1e1460d7d.svg",
     "static/media/menu.svg": "/portfolio-website/static/media/menu.fdd3220ff3367795f4cf.svg",
     "static/media/linkedin-logo-circle.svg": "/portfolio-website/static/media/linkedin-logo-circle.8762f6e957e5d6c297b9.svg",
-    "main.43b0c414.css.map": "/portfolio-website/static/css/main.43b0c414.css.map",
-    "main.44cbe667.js.map": "/portfolio-website/static/js/main.44cbe667.js.map"
+    "main.2112afb7.css.map": "/portfolio-website/static/css/main.2112afb7.css.map",
+    "main.31111eea.js.map": "/portfolio-website/static/js/main.31111eea.js.map"
   },
   "entrypoints": [
-    "static/css/main.43b0c414.css",
-    "static/js/main.44cbe667.js"
+    "static/css/main.2112afb7.css",
+    "static/js/main.31111eea.js"
   ]
 }
